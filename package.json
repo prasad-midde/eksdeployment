@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git-codecommit.ap-south-1.amazonaws.com/v1/repos/eks-cicd-demo"
+    "url": "https://github.com/prasad-midde/eksdeployment-.git"
   },
   "keywords": [
     "node"
   ],
-  "author": "Rakesh C",
+  "author": "Prasad",
   "license": "ISC",
   "dependencies": {
     "config": "^3.3.3",
