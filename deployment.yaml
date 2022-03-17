@@ -20,6 +20,6 @@ spec:
       containers:
         - image: 088585194665.dkr.ecr.ap-south-1.amazonaws.com/opensourcedevsecops:TestApplicationImage
           imagePullPolicy: Always
-          name: cicd-demo
+          name: test-demo
           ports:
             - containerPort: 3000
