@@ -18,7 +18,7 @@ spec:
         app: test-demo
     spec:
       containers:
-        - image: 088585194665.dkr.ecr.ap-south-1.amazonaws.com/opensourcedevsecops:TestApplicationImage
+        - image: 088585194665.dkr.ecr.ap-south-1.amazonaws.com/opensourcedevsecops:latest
           imagePullPolicy: Always
           name: test-demo
           ports:
