@@ -8,6 +8,7 @@ metadata:
     app.kubernetes.io/component: backend
     app.kubernetes.io/managed-by: kubectl
   name: test-demo
+  namespace: sample-eks-ns
 spec:
   selector:
     app: test-demo
