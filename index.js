@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
   res.send('CICD App V2! Changed')
 })
 
+app.get('/home', (req, res) => {
+  res.send('Welcome Home Page')
+})
+
 app.get('/status', (req, res) => {
     res.send('ok')
   })
