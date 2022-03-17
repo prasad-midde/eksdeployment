@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/instance: test-demo-instance
     app.kubernetes.io/version: '1.0.0'
     app.kubernetes.io/managed-by: kubectl
-  name: NewTest-demo-deployment
+  name: test-demo-deployment
 spec:
   replicas: 1
   selector:
