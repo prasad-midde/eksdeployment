@@ -1,3 +1,8 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sample-eks-ns
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -7,6 +12,7 @@ metadata:
     app.kubernetes.io/version: '1.0.0'
     app.kubernetes.io/managed-by: kubectl
   name: test-demo-deployment
+  namespace: sample-eks-ns
 spec:
   replicas: 1
   selector:
