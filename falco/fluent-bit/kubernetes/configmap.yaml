@@ -20,8 +20,8 @@ data:
     [OUTPUT]
         Name cloudwatch
         Match falco.**
-        region eu-west-1
-        log_group_name falco
+        region ap-south-1
+        log_group_name falco-jenkins
         log_stream_name alerts
         auto_create_group true
   parsers.conf: |
