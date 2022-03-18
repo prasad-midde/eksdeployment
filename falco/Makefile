@@ -11,7 +11,7 @@ deploy-falco:
         
 	-helm repo add falcosecurity https://falcosecurity.github.io/charts
 	helm repo update
-	helm install falco --set falco.jsonOutput=true falcosecurity/falco
+	helm install falco --set falco.jsonOutput=true  --set auditLog.enabled=true falcosecurity/falco
 
 clean: clean-fluent-bit clean-falco
 
