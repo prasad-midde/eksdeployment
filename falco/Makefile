@@ -1,4 +1,4 @@
-NODE_ROLE_NAME="eksctl-cicd-demo-nodegroup-ng-1-NodeInstanceRole-14OVIDKESE9SI"
+NODE_ROLE_NAME="eksctl-prasad-test-eks-cluster-no-NodeInstanceRole-1L232X8U1H0E7"
 
 deploy: deploy-fluent-bit deploy-falco
 
