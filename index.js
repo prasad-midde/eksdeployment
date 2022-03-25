@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/home', (req, res) => {
-  res.send('Welcome Home Page')
+  res.send('Welcome Home Page!!!')
 })
 
 app.get('/status', (req, res) => {
