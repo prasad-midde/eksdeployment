@@ -9,11 +9,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/home', (req, res) => {
-  res.send('Welcome Home Page!!!')
+  res.send('Welcome Home Page My First Node JS Apps !!!')
 })
 
 app.get('/status', (req, res) => {
-    res.send('ok')
+    res.send('OK')
   })
 
 
