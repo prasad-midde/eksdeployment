@@ -9,6 +9,7 @@ deploy-fluent-bit:
 
 deploy-falco:
         
+	helm repo add falcosecurity https://falcosecurity.github.io/charts
 	helm repo update
 	helm install falco --set falco.jsonOutput=true falcosecurity/falco
 
