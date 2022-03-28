@@ -8,7 +8,8 @@ deploy-fluent-bit:
 	kubectl apply -f fluent-bit/kubernetes/
 
 deploy-falco:
-        -helm repo add falcosecurity https://falcosecurity.github.io/charts
+        -
+	helm repo add falcosecurity https://falcosecurity.github.io/charts
 	helm repo update
 	helm install falco --set falco.jsonOutput=true falcosecurity/falco
 
