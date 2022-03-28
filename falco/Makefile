@@ -15,8 +15,8 @@ deploy-falco:
 clean: clean-fluent-bit clean-falco
 
 clean-fluent-bit:
-    -kubectl delete -f fluent-bit/kubernetes/
+    kubectl delete -f fluent-bit/kubernetes/
 
 clean-falco:
-   -helm del --purge falco
+    helm del --purge falco
 
