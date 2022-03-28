@@ -1,6 +1,6 @@
 NODE_ROLE_NAME="eksctl-cicd-demo-nodegroup-ng-1-NodeInstanceRole-14OVIDKESE9SI"
 
-deploy: deploy-fluent-bit deploy-falco
+deploy: deploy-fluent-bit clean-falco deploy-falco
 
 deploy-fluent-bit:
 	-aws iam create-policy --policy-name EKS-CloudWatchLogs --policy-document file://./fluent-bit/aws/iam_role_policy.json
