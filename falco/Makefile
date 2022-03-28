@@ -19,4 +19,4 @@ clean-fluent-bit:
 	kubectl delete -f fluent-bit/kubernetes/
 
 clean-falco:
-	helm del --purge falco
+	helm uninstall falco
